@@ -1,0 +1,56 @@
+@import "colours";
+@import "components/mixins";
+
+
+body {
+	background: $colour_body;
+
+    .columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        color: $colour_h1;
+        text-align: center;
+    }
+
+    .customtext {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-shadow: 0 2px 3px rgb(2, 4, 24);
+    }
+
+    .redcard {
+        @include customcard( $colour_redcard, $colour_text);
+
+        p {
+            @extend .customtext;
+            color: greenyellow;
+        }
+    }
+
+    .yellowcard {
+        @include customcard( $colour_yellowcard, $colour_text);
+
+        p {
+            @extend .customtext;
+            color: blueviolet;
+        }
+    }
+
+    .greencard {
+        @include customcard( $colour_greencard, $colour_text);
+
+        p {
+            @extend .customtext;
+            color: magenta;
+        }
+    }
+
+}
+
+

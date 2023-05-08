@@ -1,0 +1,21 @@
+{
+  "name": "sass-site",
+  "version": "1.0.0",
+  "description": "Site using sass for practical nine.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "gulp buildStyles",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.1",
+    "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0"
+  },
+  "author": "Matthew Marsh",
+  "license": "ISC"
+}

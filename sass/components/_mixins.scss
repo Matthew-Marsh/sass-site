@@ -1,0 +1,9 @@
+@mixin customcard($bg, $colour) {
+    background-color: $bg;
+    color: $colour;
+    width: 30%;
+    backdrop-filter: blur !important;
+    box-shadow: 0 2px 3px rgb(2, 4, 24) !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.09) !important;
+    text-align: center;
+}

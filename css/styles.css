@@ -1,0 +1,55 @@
+body {
+  background: #fff;
+}
+body .columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body h1 {
+  color: rgb(53, 139, 46);
+  text-align: center;
+}
+body .customtext, body .greencard p, body .yellowcard p, body .redcard p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 0 2px 3px rgb(2, 4, 24);
+}
+body .redcard {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: rgb(74, 44, 204);
+  width: 30%;
+  backdrop-filter: blur !important;
+  box-shadow: 0 2px 3px rgb(2, 4, 24) !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.09) !important;
+  text-align: center;
+}
+body .redcard p {
+  color: greenyellow;
+}
+body .yellowcard {
+  background-color: rgba(255, 255, 0, 0.5);
+  color: rgb(74, 44, 204);
+  width: 30%;
+  backdrop-filter: blur !important;
+  box-shadow: 0 2px 3px rgb(2, 4, 24) !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.09) !important;
+  text-align: center;
+}
+body .yellowcard p {
+  color: blueviolet;
+}
+body .greencard {
+  background-color: rgba(53, 139, 46, 0.5);
+  color: rgb(74, 44, 204);
+  width: 30%;
+  backdrop-filter: blur !important;
+  box-shadow: 0 2px 3px rgb(2, 4, 24) !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.09) !important;
+  text-align: center;
+}
+body .greencard p {
+  color: magenta;
+}
